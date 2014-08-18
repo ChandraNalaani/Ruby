@@ -1,0 +1,12 @@
+source "https://rubygems.org"
+
+# these are the Ruby bindings for the etherpad-lite API
+gem "etherpad-lite"
+gem "piggy_latin"
+
+# leverages unix diff to discover changes to pad content
+gem "diff-lcs"
+
+# boilerplate debugging tool
+gem "pry"
+gem "pry-nav"

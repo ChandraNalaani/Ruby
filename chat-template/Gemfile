@@ -1,0 +1,17 @@
+source "http://rubygems.org"
+
+# goliath is the non-blocking app server we will use
+gem "goliath", :git => "git://github.com/postrank-labs/goliath.git"
+
+# pleasant templating language
+gem "haml"
+
+# dependency of templating
+gem "tilt"
+
+# pleasant javascript dialect
+gem "coffee-script"
+
+# debugging tools
+gem "pry"
+gem "pry-nav"
